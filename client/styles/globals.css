@@ -88,7 +88,7 @@ a {
 }
 
 .black-portion {
-    height: 1rem;
+    height: .5rem;
     width: 15rem;
     background-color: black;
     margin-bottom: 0.5rem;
@@ -99,4 +99,26 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.pride_face {
+    position: relative;
+}
+
+.pride_cape {
+    position: relative;
+    margin-left: -8rem;
+    margin-top: -10rem;
+}
+
+.getc_image_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.get_connect_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
 }

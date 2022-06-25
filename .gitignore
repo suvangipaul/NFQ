@@ -6,7 +6,7 @@ node_modules
 .pnp.js
 .env
 .vscode
-
+.env.local
 # testing
 /coverage
 
