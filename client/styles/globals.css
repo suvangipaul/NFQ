@@ -93,3 +93,10 @@ a {
     background-color: black;
     margin-bottom: 0.5rem;
 }
+
+.footer-icon {
+    margin: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
