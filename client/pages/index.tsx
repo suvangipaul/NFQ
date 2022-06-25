@@ -4,6 +4,7 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Colorpartion from "../components/colorpartition/colorpartion.components";
 import img from "../public/background.svg";
+import Teamcard from "../components/teamcard/teamcard.components";
 
 const Home: NextPage = () => {
   return (
@@ -57,6 +58,7 @@ const Home: NextPage = () => {
         <Colorpartion />
         <div className="team_container">
           <h1>TEAM</h1>
+          <Teamcard/>
         </div>
       </main>
 
