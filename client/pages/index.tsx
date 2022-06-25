@@ -3,10 +3,10 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Colorpartion from "../components/colorpartition/colorpartion.components";
-import pridefacepaint from "../public/pridefacepaint.png";
-import prideflagcape from "../public/prideflagcape.png";
-import couples1 from "../public/couples1.png";
-import couples2 from "../public/couples2.png";
+import pridefacepaint from '../public/pridefacepaint.png';
+import prideflagcape from '../public/prideflagcape.png';
+import couples1 from '../public/couples1.png';
+import couples2 from '../public/couples2.png';
 import Teamcard from "../components/teamcard/teamcard.components";
 
 const Home: NextPage = () => {
@@ -21,8 +21,7 @@ const Home: NextPage = () => {
       <main className={styles.main}>
         <div className={styles.headercontainer}>
           <h1>
-            WE&#39;RE &nbsp;&nbsp;{" "}
-            <span className={styles.yellowfont}>HERE.</span>
+            WE&#39;RE &nbsp;&nbsp; <span className={styles.yellowfont}>HERE.</span>
           </h1>
           <h1 className="outlineheader">
             WE&#39;RE &nbsp;&nbsp;&nbsp; <span>QUEER</span>.
@@ -35,15 +34,11 @@ const Home: NextPage = () => {
 
         <div className="get_connect_section">
           <div className="getc_image_content">
-            <div className="men_face ">
-              <Image src={pridefacepaint}  alt="" width={400}  height={600} />
-            </div>
-            <div className="pride_cape ">
-              <Image src={prideflagcape}  alt=""  width={400}  height={600} />
-            </div>
+            {/* <Image src=""  alt="" /> */}
+            {/* <Image src=""  alt="" /> */}
           </div>
           <div className={styles.section_connect}>
-            <h1>GET <br/> CONNECTED</h1>
+            <h1>GET CONNECTED</h1>
             <p>
               Your search for a great relationship has never been easier with
               groundbreaking overhaul of the eharmony you know and trust.
@@ -59,52 +54,28 @@ const Home: NextPage = () => {
             </p>
           </div>
           <div className="otherc_image_content">
-          <div className="pride_face ">
-              <Image src={couples1}  alt="" width={400}  height={600} />
-            </div>
-            <div className="pride_cape ">
-              <Image src={couples2}  alt=""  width={400}  height={600} />
-            </div>
+            {/* <Image src=""  alt="" /> */}
+            {/* <Image src=""  alt="" /> */}
           </div>
         </div>
         <Colorpartion />
         <div className="team_container">
           <h1>TEAM</h1>
-          <Teamcard />
+          <Teamcard/>
         </div>
       </main>
 
       <footer className={styles.footer}>
-        <div>
-          <div className="footer-container">
-            <h4>NFQ - NO FEAR QUEER</h4>
-            <div className="black-portion"></div>
-            <div className="black-portion"></div>
-            <div className="black-portion"></div>
-            <div className="footer-content">
-              <div className="footer-icon">
-                <Image
-                  src="/bLack-twit.png"
-                  alt="Twitter"
-                  width={22}
-                  height={22}
-                />
-                <Image
-                  src="/bLack-git.png"
-                  alt="GitHub"
-                  width={22}
-                  height={22}
-                />
-                <Image
-                  src="/black-link.png"
-                  alt="LinkedIn"
-                  width={22}
-                  height={22}
-                />
-              </div>
-            </div>
-          </div>
-        </div>
+        <a
+          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Powered by{" "}
+          <span className={styles.logo}>
+            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+          </span>
+        </a>
       </footer>
     </div>
   );
