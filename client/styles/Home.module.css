@@ -68,6 +68,16 @@
     margin-bottom: -2rem;
 }
 
+.section_connect {
+    width: 30rem;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+.section_connect h1 {
+    font-family: 'Luckiest Guy', cursive;
+    color: #FFF502;
+}
 .section_connect p {
     font-family: 'Poiret One', cursive;
     font-size: 1.5rem;
@@ -79,4 +89,8 @@
     background-color: #FFF502;
     color: black;
     text-align: center;
+}
+
+.footer h4 {
+    font-family: 'Luckiest Guy', cursive;
 }
