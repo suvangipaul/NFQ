@@ -1,9 +1,34 @@
-import React from 'react'
+import React, {useMemo} from "react";
+import { GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
+import Colorpartion from "../components/colorpartition/colorpartion.components";
+
 
 const Explore = () => {
-  return (
-    <div>Explore</div>
-  )
-}
+  const { isLoaded } = useLoadScript({
+    googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY || "",
+  });
 
-export default Explore
+  if (!isLoaded) return <div>Loading...</div>;
+  return (
+    <div className="map_section">
+      <Map />
+      <Colorpartion/>
+    </div>
+  );
+};
+
+
+const Map = () => {
+  const center = useMemo(() => ({ lat: 44, lng: -80 }), []);
+  return (
+    <GoogleMap
+      zoom={10}
+      center={center}
+      mapContainerClassName="map-container"
+    >
+      <Marker position={center} />
+    </GoogleMap>
+  );
+};
+
+export default Explore;
