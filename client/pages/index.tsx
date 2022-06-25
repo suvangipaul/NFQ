@@ -35,7 +35,7 @@ const Home: NextPage = () => {
 
         <div className="get_connect_section">
           <div className="getc_image_content">
-            <div className="pride_face ">
+            <div className="men_face ">
               <Image src={pridefacepaint}  alt="" width={400}  height={600} />
             </div>
             <div className="pride_cape ">
@@ -59,8 +59,12 @@ const Home: NextPage = () => {
             </p>
           </div>
           <div className="otherc_image_content">
-            {/* <Image src=""  alt="" /> */}
-            {/* <Image src=""  alt="" /> */}
+          <div className="pride_face ">
+              <Image src={couples1}  alt="" width={400}  height={600} />
+            </div>
+            <div className="pride_cape ">
+              <Image src={couples2}  alt=""  width={400}  height={600} />
+            </div>
           </div>
         </div>
         <Colorpartion />
