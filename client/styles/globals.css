@@ -48,6 +48,10 @@ a {
 
 .teamcard-division {
     margin: 0 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .team-player {
@@ -62,10 +66,12 @@ a {
 
 .socials {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .social-icon {
-    margin: 0.5rem 1rem;
+    margin: 1rem 1rem;
 }
 
 .social-icon:hover {
