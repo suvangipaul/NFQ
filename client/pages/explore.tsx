@@ -1,7 +1,7 @@
 import React, {useMemo} from "react";
 import { GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
 import Colorpartion from "../components/colorpartition/colorpartion.components";
-
+import { withPageAuthRequired } from '@auth0/nextjs-auth0';
 
 const Explore = () => {
   const { isLoaded } = useLoadScript({
@@ -31,4 +31,7 @@ const Map = () => {
   );
 };
 
-export default Explore;
+export default withPageAuthRequired(Explore, {
+  onRedirecting: () => <div>Loading...</div>,
+  onError: error => <p>{error.message}</p>
+});
