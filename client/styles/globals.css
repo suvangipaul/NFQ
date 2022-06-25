@@ -86,3 +86,10 @@ a {
 .TeamsCard {
     display: flex;
 }
+
+.black-portion {
+    height: 1rem;
+    width: 15rem;
+    background-color: black;
+    margin-bottom: 0.5rem;
+}
