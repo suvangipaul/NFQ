@@ -72,11 +72,12 @@ a {
 
 .social-icon {
     margin: 1rem 1rem;
+    transition: all .5s;
+    cursor: pointer;
 }
 
 .social-icon:hover {
-    transform: scale(1.5);
-    transition: 1.05s;
+    transform: scale(1.2);
 }
 
 .team_container {
@@ -121,4 +122,8 @@ a {
     justify-content: center;
     align-items: center;
     margin-top: 10rem;
+}
+
+.margin-top {
+    margin-top: 4rem;
 }

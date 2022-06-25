@@ -50,20 +50,26 @@ const Home: NextPage = () => {
             </p>
           </div>
         </div>
-        <div className="other_connect_section">
+        <div className="get_connect_section">
           <div className={styles.section_connect}>
-            <h1>GET CONNECTED</h1>
+            <h1>GET <br/> CONNECTED</h1>
             <p>
               Your search for a great relationship has never been easier with
               groundbreaking overhaul of the eharmony you know and trust.
             </p>
           </div>
-          <div className="otherc_image_content">
-            {/* <Image src=""  alt="" /> */}
-            {/* <Image src=""  alt="" /> */}
+          <div className="getc_image_content">
+            <div className="pride_face ">
+              <Image src={couples1}  alt="" width={400}  height={600} />
+            </div>
+            <div className="pride_cape ">
+              <Image src={couples2}  alt=""  width={400}  height={600} />
+            </div>
           </div>
         </div>
-        <Colorpartion />
+        <div className="margin-top">
+          <Colorpartion />
+        </div>
         <div className="team_container">
           <h1>TEAM</h1>
           <Teamcard />
