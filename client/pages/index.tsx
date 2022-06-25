@@ -35,11 +35,15 @@ const Home: NextPage = () => {
 
         <div className="get_connect_section">
           <div className="getc_image_content">
-            {/* <Image src=""  alt="" /> */}
-            {/* <Image src=""  alt="" /> */}
+            <div className="pride_face ">
+              <Image src={pridefacepaint}  alt="" width={400}  height={600} />
+            </div>
+            <div className="pride_cape ">
+              <Image src={prideflagcape}  alt=""  width={400}  height={600} />
+            </div>
           </div>
           <div className={styles.section_connect}>
-            <h1>GET CONNECTED</h1>
+            <h1>GET <br/> CONNECTED</h1>
             <p>
               Your search for a great relationship has never been easier with
               groundbreaking overhaul of the eharmony you know and trust.
