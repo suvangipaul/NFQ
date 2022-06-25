@@ -1,51 +1,82 @@
 @import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;600&family=Luckiest+Guy&family=Poiret+One&display=swap');
-
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     color: white;
     background-color: black;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-
 .map-container {
-  height: 50rem;
-  width: 100%;
-  border-radius: 20px;
+    height: 50rem;
+    width: 100%;
+    border-radius: 20px;
 }
 
 .map_section {
-  padding: 2rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .nav-option {
-  display: flex;
-  list-style: none;
+    display: flex;
+    list-style: none;
 }
 
 .nav-option li {
-  margin-left: 3rem;
-  font-family: 'Poiret One', cursive;
-  font-weight: 800;
-  font-size: 1.2rem;
-
+    margin-left: 3rem;
+    font-family: 'Poiret One', cursive;
+    font-weight: 800;
+    font-size: 1.2rem;
 }
 
 .logo {
-  cursor: pointer;
+    cursor: pointer;
+}
+
+.teamcard-division {
+    margin: 0 4rem;
+}
+
+.team-player {
+    text-align: center;
+    align-items: center;
+}
+
+.member {
+    border-radius: 40rem;
+    height: 10rem;
+}
+
+.socials {
+    display: flex;
+}
+
+.social-icon {
+    margin: 0.5rem 1rem;
+}
+
+.social-icon:hover {
+    transform: scale(1.5);
+    transition: 1.05s;
+}
+
+.team_container {
+    text-align: center;
+}
+
+.TeamsCard {
+    display: flex;
 }
