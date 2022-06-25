@@ -3,7 +3,10 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Colorpartion from "../components/colorpartition/colorpartion.components";
-import img from "../public/background.svg";
+import pridefacepaint from '../public/pridefacepaint.png';
+import prideflagcape from '../public/prideflagcape.png';
+import couples1 from '../public/couples1.png';
+import couples2 from '../public/couples2.png';
 import Teamcard from "../components/teamcard/teamcard.components";
 
 const Home: NextPage = () => {
