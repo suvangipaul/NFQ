@@ -3,10 +3,10 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Colorpartion from "../components/colorpartition/colorpartion.components";
-import pridefacepaint from '../public/pridefacepaint.png';
-import prideflagcape from '../public/prideflagcape.png';
-import couples1 from '../public/couples1.png';
-import couples2 from '../public/couples2.png';
+import pridefacepaint from "../public/pridefacepaint.png";
+import prideflagcape from "../public/prideflagcape.png";
+import couples1 from "../public/couples1.png";
+import couples2 from "../public/couples2.png";
 import Teamcard from "../components/teamcard/teamcard.components";
 
 const Home: NextPage = () => {
@@ -73,11 +73,26 @@ const Home: NextPage = () => {
             <div className="black-portion"></div>
             <div className="black-portion"></div>
             <div className="black-portion"></div>
-
             <div className="footer-content">
               <div className="footer-icon">
-                {/* <Image src="/" alt="GitHub" width={32} height={32} />
-                <Image src="/" alt="LinkedIn" width={32} height={32} /> */}
+                <Image
+                  src="/bLack-twit.png"
+                  alt="Twitter"
+                  width={22}
+                  height={22}
+                />
+                <Image
+                  src="/bLack-git.png"
+                  alt="GitHub"
+                  width={22}
+                  height={22}
+                />
+                <Image
+                  src="/black-link.png"
+                  alt="LinkedIn"
+                  width={22}
+                  height={22}
+                />
               </div>
             </div>
           </div>
