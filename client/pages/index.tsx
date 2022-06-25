@@ -18,7 +18,8 @@ const Home: NextPage = () => {
       <main className={styles.main}>
         <div className={styles.headercontainer}>
           <h1>
-            WE&#39;RE &nbsp;&nbsp; <span className={styles.yellowfont}>HERE.</span>
+            WE&#39;RE &nbsp;&nbsp;{" "}
+            <span className={styles.yellowfont}>HERE.</span>
           </h1>
           <h1 className="outlineheader">
             WE&#39;RE &nbsp;&nbsp;&nbsp; <span>QUEER</span>.
@@ -58,21 +59,26 @@ const Home: NextPage = () => {
         <Colorpartion />
         <div className="team_container">
           <h1>TEAM</h1>
-          <Teamcard/>
+          <Teamcard />
         </div>
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{" "}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
+        <div>
+          <div className="footer-container">
+            <h4>NFQ - NO FEAR QUEER</h4>
+            <div className="black-portion"></div>
+            <div className="black-portion"></div>
+            <div className="black-portion"></div>
+
+            <div className="footer-content">
+              <div className="footer-icon">
+                {/* <Image src="/" alt="GitHub" width={32} height={32} />
+                <Image src="/" alt="LinkedIn" width={32} height={32} /> */}
+              </div>
+            </div>
+          </div>
+        </div>
       </footer>
     </div>
   );
