@@ -8,6 +8,7 @@
 - Google Maps API
 - NodeJs and ExpressJs
 - MongoDB
+- Auth0 2.0 *Authentication Provider*
 
 ## Inspiration
 
