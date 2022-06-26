@@ -56,7 +56,7 @@ const Map = () => {
 
   navigator.geolocation.getCurrentPosition(successCallback, errorCallback)
 
-  const AddLocation =async () => {
+  const AddLocation = async () => {
     const res = await axios.post('/users/create', {
       email: user?.email,
       first_name: user?.name,
@@ -73,11 +73,11 @@ const Map = () => {
 
 
   console.log(userlist)
-  const center = useMemo(() => ({ lat: 44, lng: -80 }), []);
+  const center = useMemo(() => ({ lat:  20.344881, lng:  85.8208954 }), []);
   return (
     <>
       <GoogleMap
-        zoom={2}
+        zoom={5}
         center={center}
         mapContainerClassName="map-container"
       >
