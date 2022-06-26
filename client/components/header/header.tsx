@@ -14,9 +14,18 @@ const Header = () => {
       </div>
       <div>
         <ul className="nav-option">
+          <li>
+            <Link href="/news">News</Link>
+          </li>
+
           { user && (
             <li>
               <Link href="/explore">Find your Match</Link>
+            </li>
+          )}
+          { user && (
+            <li>
+              <Link href="/chat">Chat</Link>
             </li>
           )}
           {!user && !isLoading && (
