@@ -18,7 +18,7 @@
 
 ## What it does
 
-NFQ is an app for like-minded people who wish to explore their relationship desires in a safe place. One can create a profile which later helps in personalized recommendations. There is also an option of chatting and finding out whom you would like to catch up with, along with a news section to stay upadated.
+NFQ is an app for like-minded people who wish to explore their relationship desires in a safe place. One can create a profile which later helps in personalized recommendations. There is also an option of chatting and finding out whom you would like to catch up with, along with a news section to stay updated.
 
 ## How we built it
 
