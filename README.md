@@ -12,16 +12,16 @@
 ## Inspiration
 
 1. We believe this hackathon is a great opportunity for our career-boost. It also is a great learning point to pitch new ideas, learn, improve our present skills and find the right approach to make this project successful.
-2. Dating is a struggle when it comes to LGBTQ community. We thought of developing an app when geologically locates everyone interested, create personalized choices.
-3. To attract students globally, building a good UI is also necessary. We have focused on this aspect and have implemented a professional and simple UI.
+2. Dating is a struggle when it comes to LGBTQ community. We thought of developing an app which geologically locates everyone interested, creates personalized choices.
+3. To attract the people, building a good UI is also necessary. We have focused on this aspect and have implemented a professional and simple UI.
 
 ## What it does
 
-NFQ is an app for like-minded people who wish to explore their relationship desires in a safe place. One can create a profile which later helps in personalized recommendations. There is also an option of chatting and finding out whom you would like to catch up with, and a news section.
+NFQ is an app for like-minded people who wish to explore their relationship desires in a safe place. One can create a profile which later helps in personalized recommendations. There is also an option of chatting and finding out whom you would like to catch up with, along with a news section to stay upadated.
 
 ## How we built it
 
-We started off by planning and customizing the UI design and what major things to include. Then we proceeded to build the backend, deal with database then tested and finalized. To make this project, we used many tech stacks and APIs. Some of them include - Typescript, Google Maps API, NodeJS, ExpressJS, MongoDB, Mongoose, Auth0.
+We started off by planning and customizing the UI design and what major things to include. Then we proceeded to build the backend, deal with database then finalized. To make this project, we used many tech stacks and APIs. Some of them include - Typescript, Google Maps API, NodeJS, ExpressJS, MongoDB, Mongoose, Auth0.
 
 ## Challenges we ran into
 
