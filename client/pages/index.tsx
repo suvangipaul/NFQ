@@ -47,10 +47,9 @@ const Home: NextPage = () => {
         </div>
         <div className="get_connect_section">
           <div className={styles.section_connect}>
-            <h1>GET <br/> CONNECTED</h1>
+            <h1> WHAT IS <br/> NO FEAR QUEER</h1>
             <p>
-              Your search for a great relationship has never been easier with
-              groundbreaking overhaul of the eharmony you know and trust.
+            An app for like-minded people who wish to explore their relationship desires in a safe place. One can create a profile which later helps in personalized recommendations. 
             </p>
           </div>
           <div className="getc_image_content">
