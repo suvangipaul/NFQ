@@ -9,22 +9,14 @@ dotenv.config()
 const PORT = process.env.PORT || 4000
 const app = express()
 
-app.get('/', (req, res) => {
-  res.send('Hello World!')
-})
 
 // middleware
 app.use(express.json())
 app.use(cors())
 
 //routes
-app.use(express.static(path.join(__dirname, "./client/build")))
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, './client/build', 'index.html'))
-})
-
-app.get('/explore', (req, res) => {
-  res.sendFile(path.join(__dirname, './client/build', 'index.html'))
+  res.send('NFQ servers')
 })
 
 app.use('/users', router)
@@ -37,5 +29,5 @@ db.once('open', () => {
 })
 
 app.listen(PORT, () => {
-  console.log(`Example app listening on port ${PORT}`)
+  console.log(`server is running at http://localhost:${PORT}`)
 })
