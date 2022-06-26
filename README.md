@@ -4,10 +4,10 @@
 
 ## Tech Stack
 
-- React
-- Truffle
-- GraphQL
+- NextJs - *Typescript*
+- Google Maps API
 - NodeJs and ExpressJs
+- MongoDB
 
 ## Inspiration
 
