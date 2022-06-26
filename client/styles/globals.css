@@ -127,3 +127,14 @@ a {
 .margin-top {
     margin-top: 4rem;
 }
+
+.add-me {
+    margin-top: 2rem;
+    padding: 1rem;
+    font-family: 'Poiret One', cursive;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    cursor: pointer;
+
+}
