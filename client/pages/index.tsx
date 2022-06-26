@@ -34,8 +34,14 @@ const Home: NextPage = () => {
 
         <div className="get_connect_section">
           <div className="getc_image_content">
-            {/* <Image src=""  alt="" /> */}
-            {/* <Image src=""  alt="" /> */}
+          <div className="getc_image_content">
+            <div className="pride_face ">
+              <Image src={pridefacepaint}  alt="" width={400}  height={600} />
+            </div>
+            <div className="pride_cape ">
+              <Image src={prideflagcape}  alt=""  width={400}  height={600} />
+            </div>
+          </div>
           </div>
           <div className={styles.section_connect}>
             <h1>GET CONNECTED</h1>
@@ -69,19 +75,6 @@ const Home: NextPage = () => {
           <Teamcard/>
         </div>
       </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{" "}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer>
     </div>
   );
 };
