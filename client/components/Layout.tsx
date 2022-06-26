@@ -1,5 +1,6 @@
 import React, { ReactNode } from 'react'
-import Header from './header/header'
+import Header from './header/header';
+import Footer from './footer/footer';
 interface ILayoutProps {
     children: ReactNode
 }
@@ -8,6 +9,7 @@ const Layout = ({ children }: ILayoutProps) => {
     <div>
         <Header />
         {children}
+        <Footer />
     </div>
   )
 }
